@@ -122,8 +122,10 @@ A API foi desenvolvida utilizando a linguagem Python e o framework Flask e possu
 
 ## TODO
 
-- Melhorar o modelo de predição de sobrevivência - [ ] Trabalhar variáveis categóricas (Cabin, Name, Ticket)
-  ø
+- Melhorar o modelo de predição de sobrevivência 
+  - [ ] Trabalhar variáveis categóricas (Cabin, Name, Ticket)
+
+
 - Melhorar a interface do usuário
   - [ ] Melhorar a interface do usuário
   - [ ] Adicionar gráficos
