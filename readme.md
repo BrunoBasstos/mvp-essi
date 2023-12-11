@@ -2,13 +2,14 @@
 
 ## MVP-IV - Engenharia de Sistemas de Software Inteligentes
 
-- Este repositório contém o código fonte do projeto de Engenharia de Sistemas de Software Inteligentes desenvolvido para atender aops requsiitos do MVP-IV da disciplina de Engenharia de Sistemas de Software Inteligentes do curso de Engenharia de Software da PUC-Rio/2023.
+Este repositório contém o código fonte do projeto de Engenharia de Sistemas de Software Inteligentes desenvolvido para atender aops requsiitos do MVP-IV da disciplina de Engenharia de Sistemas de Software Inteligentes do curso de Engenharia de Software da PUC-Rio/2023.
 
-- O projeto consiste em um sistema de predição de morte / sobrevivência de passageiros do Titanic, baseado em um modelo de Machine Learning desenvolvido com base nos dados do dataset disponibilizado no Kaggle.
+O projeto consiste em um sistema de predição de morte / sobrevivência de passageiros do Titanic, baseado em um modelo de Machine Learning desenvolvido com base nos dados do dataset disponibilizado no Kaggle.
 
 ## Modelo de Machine Learning
 
-O modelo de Machine Learning foi desenvolvido utilizando a linguagem Python e a biblioteca Scikit-Learn e foi escrito usando a plataforma Google Colab. O código fonte do modelo pode ser encontrado <a href="https://colab.research.google.com/drive/18fmovdw_M3VUTbCu2q6zUHEl-AgFg86u#scrollTo=MPtjghQ7Ywwv" target="_blank"> aqui </a>. 
+O modelo de Machine Learning foi desenvolvido utilizando a linguagem Python e a biblioteca Scikit-Learn e foi escrito usando a plataforma Google Colab. O código fonte do modelo pode ser encontrado [aqui](https://colab.research.google.com/drive/18fmovdw_M3VUTbCu2q6zUHEl-AgFg86u#scrollTo=MPtjghQ7Ywwv). 
+
 O modelo foi exportado para o arquivo `_titanic.pkl` e é utilizado de forma embarcada na API Flask para realizar as predições. 
 
 Uma cópia do notebook utilizado para desenvolver o modelo, bem como o dataset e um arquivo que raliza a predição de todos os passageiros dod ataset original pode ser encontrado na pasta `notebook`.
