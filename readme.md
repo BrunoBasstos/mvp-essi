@@ -12,82 +12,82 @@
 
 ## API
 
-- A API foi desenvolvida utilizando a linguagem Python e o framework Flask e possui os seguintes endpoints:
+A API foi desenvolvida utilizando a linguagem Python e o framework Flask e possui os seguintes endpoints:
 
-      - `GET /` - endpoint para a documentação da API
-      - `GET /passageiros` - endpoint para listar todos os passageiros cadastrados na API
-          - retorna uma lista com os dados de todos os passageiros cadastrados e as respectivas predições de sobrevivência
-            - Exemplo de requisição: `GET /passageiros`
-            - Exemnplo de resposta:
-            ```json
-            [{
-                "age": 38,
-                "cabin": "C85",
-                "embarked": "C",
-                "fare": 71.2833,
-                "id": 1,
-                "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
-                "outcome": 1,
-                "parch": 0,
-                "pclass": 1,
-                "sex": "femake",
-                "sibsp": 1,
-                "ticket": "string"
-            }]
-            ```
-      - `GET /passageiros/<id>` - endpoint para listar um passageiro específico
-          - retorna os dados do passageiro cadastrado e a predição de sobrevivência
-            - Exemplo de requisição: `GET /passageiros/1`
-            - Exemplo de resposta:
-            ```json
-                {
-                    "age": 38,
-                    "cabin": "C85",
-                    "embarked": "C",
-                    "fare": 71.2833,
-                    "id": 1,
-                    "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
-                    "outcome": 1,
-                    "parch": 0,
-                    "pclass": 1,
-                    "sex": "femake",
-                    "sibsp": 1,
-                    "ticket": "string"
-                }
-            ```
-      - `POST /passageiros` - endpoint para cadastrar um novo passageiro e realizar a predição de sobrevivência
-          - Exemplo de requisição:
-          ```json
-            {
-                "age": 38,
-                "cabin": "C85",
-                "embarked": "C",
-                "fare": 71.2833,
-                "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
-                "parch": 0,
-                "pclass": 1,
-                "sex": "femake",
-                "sibsp": 1,
-                "ticket": "string"
-            }
-          ```
-          - Exemplo de resposta:
-          ```json
-            {
-                "age": 38,
-                "cabin": "C85",
-                "embarked": "C",
-                "fare": 71.2833,
-                "id": 1,
-                "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
-                "outcome": 1,
-                "parch": 0,
-                "pclass": 1,
-                "sex": "femake",
-                "sibsp": 1,
-                "ticket": "string"
-            }
-        ```
+- `GET /` - endpoint para a documentação da API
+- `GET /passageiros` - endpoint para listar todos os passageiros cadastrados na API
+    - retorna uma lista com os dados de todos os passageiros cadastrados e as respectivas predições de sobrevivência
+    - Exemplo de requisição: `GET /passageiros`
+    - Exemnplo de resposta:
+    ```json
+    [{
+        "age": 38,
+        "cabin": "C85",
+        "embarked": "C",
+        "fare": 71.2833,
+        "id": 1,
+        "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
+        "outcome": 1,
+        "parch": 0,
+        "pclass": 1,
+        "sex": "femake",
+        "sibsp": 1,
+        "ticket": "string"
+    }]
+    ```
+- `GET /passageiros/<id>` - endpoint para listar um passageiro específico
+    - retorna os dados do passageiro cadastrado e a predição de sobrevivência
+    - Exemplo de requisição: `GET /passageiros/1`
+    - Exemplo de resposta:
+    ```json
+        {
+            "age": 38,
+            "cabin": "C85",
+            "embarked": "C",
+            "fare": 71.2833,
+            "id": 1,
+            "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
+            "outcome": 1,
+            "parch": 0,
+            "pclass": 1,
+            "sex": "femake",
+            "sibsp": 1,
+            "ticket": "string"
+        }
+    ```
+- `POST /passageiros` - endpoint para cadastrar um novo passageiro e realizar a predição de sobrevivência
+    - Exemplo de requisição:
+    ```json
+    {
+        "age": 38,
+        "cabin": "C85",
+        "embarked": "C",
+        "fare": 71.2833,
+        "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
+        "parch": 0,
+        "pclass": 1,
+        "sex": "femake",
+        "sibsp": 1,
+        "ticket": "string"
+    }
+    ```
+    - Exemplo de resposta:
+    ```json
+    {
+        "age": 38,
+        "cabin": "C85",
+        "embarked": "C",
+        "fare": 71.2833,
+        "id": 1,
+        "name": "Mrs. John Bradley (Florence Briggs Thayer) Cumings",
+        "outcome": 1,
+        "parch": 0,
+        "pclass": 1,
+        "sex": "femake",
+        "sibsp": 1,
+        "ticket": "string"
+    }
+    ```
 
 ## Requisitos
 
