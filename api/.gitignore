@@ -7,3 +7,4 @@ instance/*
 .idea/
 /.venv/
 /database/
+logs/
