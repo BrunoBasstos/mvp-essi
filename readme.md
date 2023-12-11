@@ -8,7 +8,7 @@
 
 ## Modelo de Machine Learning
 
-- O modelo de Machine Learning foi desenvolvido utilizando a linguagem Python e a biblioteca Scikit-Learn e foi escrito usando a plataforma Google Colab. O código fonte do modelo pode ser encontrado no link [Titanic.ipynb](https://colab.research.google.com/drive/18fmovdw_M3VUTbCu2q6zUHEl-AgFg86u#scrollTo=MPtjghQ7Ywwv). O modelo foi exportado para o arquivo `_titanic.pkl` e é utilizado de forma embarcada na API Flask para realizar as predições.
+- O modelo de Machine Learning foi desenvolvido utilizando a linguagem Python e a biblioteca Scikit-Learn e foi escrito usando a plataforma Google Colab. O código fonte do modelo pode ser encontrado <a href="https://colab.research.google.com/drive/18fmovdw_M3VUTbCu2q6zUHEl-AgFg86u#scrollTo=MPtjghQ7Ywwv" target="_BLANK"> aqui </a>. O modelo foi exportado para o arquivo `_titanic.pkl` e é utilizado de forma embarcada na API Flask para realizar as predições.
 - uma cópia do notebook utilizado para desenvolver o modelo, bem como o dataset e um arquivo que raliza a predição de todos os passageiros dod ataset original pode ser encontrado na pasta `notebook`.
 
 ## API
