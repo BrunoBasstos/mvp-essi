@@ -1,7 +1,6 @@
 #test.py
 import joblib
 import pandas as pd
-from transformers import CabinToNumber
 
 modelo = joblib.load('_titanic.pkl')
 
