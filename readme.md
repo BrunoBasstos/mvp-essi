@@ -29,8 +29,8 @@
 # Como executar os testes
 - api (flask)
     - acesse a pasta api: `cd api`
-    - crie um ambiente virtual executando o comando: `python -m venv venv`
-    - ative o ambiente virtual executando o comando: `source venv/bin/activate`
+    - caso ainda não tenha criado, crie um ambiente virtual executando o comando: `python -m venv venv`
+    - caso ainda não esteja ativado, ative o ambiente virtual executando o comando: `source venv/bin/activate`
     - execute o comando: `pip install -r requirements.txt`
     - execute o comando: `python -m pytest -v`
 
