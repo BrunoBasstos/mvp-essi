@@ -8,7 +8,7 @@ O projeto consiste em um sistema de predição de morte / sobrevivência de pass
 
 ## Modelo de Machine Learning
 
-O modelo de Machine Learning foi desenvolvido utilizando a linguagem Python e a biblioteca Scikit-Learn e foi escrito usando a plataforma Google Colab. O código fonte do modelo pode ser encontrado [aqui](https://colab.research.google.com/drive/18fmovdw_M3VUTbCu2q6zUHEl-AgFg86u#scrollTo=MPtjghQ7Ywwv). 
+O modelo de Machine Learning foi desenvolvido utilizando a linguagem Python e a biblioteca Scikit-Learn e foi escrito usando a plataforma Google Colabe o notebook utilizado por ser acessado aqui https://colab.research.google.com/drive/18fmovdw_M3VUTbCu2q6zUHEl-AgFg86u#scrollTo=MPtjghQ7Ywwv. 
 
 O modelo foi exportado para o arquivo `_titanic.pkl` e é utilizado de forma embarcada na API Flask para realizar as predições. 
 
