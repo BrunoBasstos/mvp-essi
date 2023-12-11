@@ -98,9 +98,6 @@ def get_passengers():
         name = request.args.get('name')
         sex = request.args.get('sex')
 
-        if not pclass and not name and not sex:
-            raise BadRequest(description="Informe um termo de busca")
-
         query = session.query(Passenger)
         if pclass:
             query = query.filter(Passenger.pclass == pclass)

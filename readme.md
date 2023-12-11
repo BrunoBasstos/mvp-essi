@@ -112,7 +112,7 @@ A API foi desenvolvida utilizando a linguagem Python e o framework Flask e possu
 - app (react):
   - acesse a pasta app: `cd app`
   - execute o comando: `npm install`
-  - execute o comando: `npm start`ø
+  - execute o comando: `npm start`
   - acesse o endereço: `http://localhost:3000/`
 
 ## Como executar os testes

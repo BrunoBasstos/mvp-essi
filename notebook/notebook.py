@@ -45,7 +45,7 @@ USAR_APENAS_MODELOS_SOLICITADOS = True
 """# Carregar, explorar e tratar os dados"""
 
 # Carregar o dataset
-url = "https://raw.githubusercontent.com/BrunoBasstos/mvp-iv-notebook/main/src/titanic-dataset.csv"
+url = "https://raw.githubusercontent.com/BrunoBasstos/mvp-essi/main/notebook/src/titanic-dataset.csv"
 original_ds = pd.read_csv(url)
 
 # Explorando os dados
@@ -285,3 +285,14 @@ entrada2 = pd.DataFrame(entrada2, index=[0])
 predicao2 = modelo.predict(entrada2)
 display(exibir_predicao(predicao2, 2))
 
+"""# Conclusão
+
+A análise dos dados e o treinamento dos modelos revelaram insights interessantes sobre os fatores que influenciaram a sobrevivência dos passageiros. A ideia passada pelo filme de "mulheres e crianças primeiro" se reflete nos dados dos sobreviventes.
+
+Foi interessante ver as alterações no comportamento dos modelos com os ajustes dos parâmetros e fiquei bastante instigado a explorar e encontrar uma forma de fazer uso da informação das Cabines para tentar agrupar os passageiros por setores do navio e relacionar ao índice de mortes por setores.
+
+Outro ponto que me chamou atenção é a relevância do conhecimento do domínio dos dados em análise. Uma pessoa que conhece bem o navio, o projeto, os portos, o comportamento social à época, seria sem dúvidas capaz de extrair melhores predições!
+
+Certamente voltarei a esse projeto assim que o tempo me permitir!
+
+"""
