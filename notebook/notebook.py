@@ -138,17 +138,14 @@ parametros = {
 # Preparação de Pré-processadores
 preprocessors = {
     'original': ColumnTransformer(transformers=[
-        # ('cabin', CabinToNumber(), ['Cabin']),
         ('num', SimpleImputer(strategy='median'), num_features),
         ('cat', OneHotEncoder(handle_unknown='ignore'), cat_features)
     ]),
     'padronizado': ColumnTransformer(transformers=[
-        # ('cabin', CabinToNumber(), ['Cabin']),
         ('num', Pipeline([('imputer', SimpleImputer(strategy='median')), ('scaler', StandardScaler())]), num_features),
         ('cat', OneHotEncoder(handle_unknown='ignore'), cat_features)
     ]),
     'normalizado': ColumnTransformer(transformers=[
-        # ('cabin', CabinToNumber(), ['Cabin']),
         ('num', Pipeline([('imputer', SimpleImputer(strategy='median')), ('scaler', MinMaxScaler())]), num_features),
         ('cat', OneHotEncoder(handle_unknown='ignore'), cat_features)
     ])
