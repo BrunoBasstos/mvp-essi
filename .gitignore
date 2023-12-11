@@ -1,9 +1,0 @@
-api/.idea
-api/.vscode
-api/.venv
-app/.idea
-app/.vscode
-
-
-__pycache__/
-node_modules/

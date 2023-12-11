@@ -8,3 +8,4 @@ instance/*
 /.venv/
 /database/
 logs/
+__pycache__/
